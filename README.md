@@ -97,3 +97,8 @@ Honor Pledge: *[enter your honor pledge. Find sample honor pledge text [here](ht
 
 ***Note:*** *You may not get partial credits for the extra credit. You will either get full (20pts) credit, or zero.*
 
+## Submission
+When your submission is ready, commit and sync all changes and create a tag in that version named **submission**.
+
+Your project will be graded based on the submission tagged version.
+
