@@ -85,7 +85,14 @@ Honor Pledge: *[enter your honor pledge. Find sample honor pledge text [here](ht
 
 ## Part 2: Extra Credit (20pts)
 
-3\. **Changing Directories.** Implement `execute_cd(const char *dir);`. Note that the reason it's ever so slightly harder to implement the change directory command compared to others is that this command may only be executed in the parent process. Hint: use `chdir()`.
+**Changing Directories.** Implement `execute_cd(const char *dir);`. Note that the reason it's ever so slightly harder to implement the change directory command compared to others is that this command may only be executed in the parent process. Hint: use `chdir()`.
+
+**Testing.** Here are some test cases:
+
+*   `cd ../`
+*   `cd ~`
+*   `cd /home`
+*   `cd ../../../`
 
 
 ***Note:*** *You may not get partial credits for the extra credit. You will either get full (20pts) credit, or zero.*
